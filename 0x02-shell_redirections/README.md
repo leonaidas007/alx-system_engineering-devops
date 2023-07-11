@@ -14,19 +14,19 @@
 
 7-file creates a file named \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
 
-8-cwd_state write the result of the command ls -la into the ls_cwd_content file
+8-cwd_state writes the result of the command ls -la into the file ls_cwd_content
 
 9-duplicate_last_line duplicates the last line of the file iacta
 
-10-no more_js deletes all files ending with .js in the directory and sub-directory
+10-no_more_js deletes all the regular files with the .js extension in the current working directory and its subfolders
 
-11-directories counts the number of directories and sub-directories in the current directory
+11-directories counts the numnber of diretory and subdirectories in the current directory
 
-12-newest_files dispalys the 10 newest files in the current directory
+12-newest_files displays the 10 newest files in the current directory
 
-13-unique takes a list of word inputs and prints the one that appears only once
+13-unique take a list of words as input and prints only the word that appears exactly once
 
-14-findthatword displays lines containing the pattern"root" from the file /etc/passwd
+14-findthatword displays lines containing the pattern "root" from the file /etc/passwd
 
 15-countthatword displays the number of lines that contains the pattern "bin" in the file /etc/passwd
 
@@ -34,12 +34,12 @@
 
 17-hidethisword displays all the lines in the file /etc/passwd that do not contain the pattern "bin"
 
-18-letteronly displays all lines of the file /etc/ssh/sshd_config satrting with a letter
+18-letteronly display all lines of the file /etc/ssh/sshd_config starting with a letter
 
-19-AZ replaces all characters A and c from input to Z and e respectively
+19-AZ replaces all characters A and c from the input to Z and e respectively
 
 20-hiago removes all letters c and C from input
 
-21-reverse reverses its input
+21-reverse reverses the input
 
-22-users_and_homes displays all users and their home directories, sorted by users
+22-users_and_homes displays all users and their home directories, sorted by users.
