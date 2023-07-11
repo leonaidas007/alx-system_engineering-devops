@@ -1,2 +1,2 @@
 #!/bin/bash
-sort /etc/passwd | uniq -u "root"
+grep !-v root /etc/passwd
